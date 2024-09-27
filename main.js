@@ -73,3 +73,16 @@ $(document).ready(function () {
         $(this).find("span").addClass("active-line");
     });
 });
+
+// Hamburger menu
+$(document).ready(function (){
+    $('.hamburger-icon').on('click', function (){
+        $(this).toggleClass("is-active");
+        $('.hamburger').slideToggle();
+    })
+    $('.hamburger .hamburger-menu .portfolio-navigation ul li a').on('click', function (){
+        $('.hamburger').slideUp();
+        $('.hamburger-icon').toggleClass("is-active");
+    })
+})
+
