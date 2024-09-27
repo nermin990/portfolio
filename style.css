@@ -9,9 +9,9 @@ body {
 
 body {
     /*height: 100vh;*/
-    /*background: linear-gradient(180deg, rgba(17,32,38,1) 0%, rgba(23,43,51,1) 70%, rgba(29,49,58,1) 100%);*/
+    background: linear-gradient(180deg, rgba(17,32,38,1) 0%, rgba(23,43,51,1) 70%, rgba(29,49,58,1) 100%);
 
-     background-image: radial-gradient(at 50% 50%, #112026, #1d313a);
+    /* background-image: radial-gradient(at 50% 50%, #112026, #1d313a); */
     /*background-color: rgb(18, 36, 43) !important;*/
     overflow-x: clip;
 }
