@@ -9,7 +9,7 @@ body {
 
 body {
     /*height: 100vh;*/
-    background: linear-gradient(180deg, rgba(17,32,38,1) 0%, rgba(23,43,51,1) 70%, rgba(29,49,58,1) 100%);
+    background: linear-gradient(180deg, rgba(17, 32, 38, 1) 0%, rgba(23, 43, 51, 1) 70%, rgba(29, 49, 58, 1) 100%);
 
     /* background-image: radial-gradient(at 50% 50%, #112026, #1d313a); */
     /*background-color: rgb(18, 36, 43) !important;*/
@@ -234,7 +234,7 @@ body {
     margin-top: -120px;
 }
 
-.portfolio .portfolio-holder .portfolio-holder__right .content-holder:last-of-type{
+.portfolio .portfolio-holder .portfolio-holder__right .content-holder:last-of-type {
     margin-bottom: 60px;
 }
 
@@ -348,7 +348,7 @@ body {
     margin-bottom: 32px;
 }
 
-.content-holder-experience:last-of-type{
+.content-holder-experience:last-of-type {
     margin-bottom: 0;
 }
 
@@ -396,7 +396,7 @@ body {
     margin-bottom: 32px;
 }
 
-.content-holder-experience:hover .content-holder-experience__right-firm-year h5{
+.content-holder-experience:hover .content-holder-experience__right-firm-year h5 {
     color: #ffc107;
 }
 
@@ -417,18 +417,18 @@ body {
     transition: 300ms;
 }
 
-.content-holder-experience:hover .content-holder-experience__right-tech span{
+.content-holder-experience:hover .content-holder-experience__right-tech span {
     color: #ffc107;
     border-color: #ffc107;
 }
 
-.content-holder-experience .notes{
+.content-holder-experience .notes {
     margin: 18px 0 0 0;
     font-size: 9px !important;
 }
 
 .hamburger,
-.hamburger-icon{
+.hamburger-icon {
     display: none;
 }
 
@@ -436,41 +436,51 @@ body {
     overflow: hidden;
 }
 
-@media only screen and (max-width: 1290px){
-    .portfolio-holder__left-heading{
+@media only screen and (max-width: 1290px) {
+    .portfolio-holder__left-heading {
         font-size: 60px;
     }
 }
 
-@media only screen and (max-width: 1200px){
-    .portfolio-holder__left-heading{
+@media only screen and (max-width: 1200px) {
+    .portfolio-holder__left-heading {
         font-size: 50px;
     }
 
-    .portfolio-holder__left-content h2{
+    .portfolio-holder__left-content h2 {
         font-size: 22px;
     }
 
-    .portfolio-holder__left-content p{
+    .portfolio-holder__left-content p {
         font-size: 14px;
         margin-bottom: 60px;
     }
 
-    .portfolio .portfolio-holder .portfolio-holder__right .content-holder h2{
+    .portfolio .portfolio-holder .portfolio-holder__right .content-holder h2 {
         font-size: 40px;
     }
 }
 
-@media only screen and (max-width: 991px){
-    .hamburger{
+@media only screen and (max-width: 991px) {
+    .header {
+        background: #112026FF;
+        height: 70px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 9;
+    }
+
+    .hamburger {
         width: 100%;
         height: 100vh;
-        background: darkslategrey;
+        background: #112026FF;
         position: fixed;
         z-index: 99;
     }
 
-    .hamburger-icon{
+    .hamburger-icon {
         display: block;
         position: fixed;
         top: 23px;
@@ -536,7 +546,7 @@ body {
     }
 
 
-    .hamburger .hamburger-menu{
+    .hamburger .hamburger-menu {
         display: flex;
         flex-flow: row wrap;
         align-items: center;
@@ -544,54 +554,131 @@ body {
         height: 100%;
     }
 
-    .hamburger .hamburger-menu .portfolio-navigation{
+    .hamburger .hamburger-menu .portfolio-navigation {
         margin-bottom: 48px;
     }
 
-    .hamburger .hamburger-menu .portfolio-navigation ul{
+    .hamburger .hamburger-menu .portfolio-navigation ul {
         list-style: none;
         padding-left: 0;
     }
 
-    .hamburger .hamburger-menu .portfolio-navigation ul li{
+    .hamburger .hamburger-menu .portfolio-navigation ul li {
         margin-bottom: 12px;
     }
 
-    .hamburger .hamburger-menu .portfolio-navigation ul li:last-of-type{
+    .hamburger .hamburger-menu .portfolio-navigation ul li:last-of-type {
         margin-bottom: 0;
     }
 
-    .hamburger .hamburger-menu .portfolio-navigation ul li a{
+    .hamburger .hamburger-menu .portfolio-navigation ul li a {
         text-decoration: none;
         font-size: 22px;
         color: #fff;
     }
 
+    .portfolio {
+        padding-top: 100px;
+    }
 
-
-
-    .portfolio .portfolio-holder .portfolio-holder__left{
+    .portfolio .portfolio-holder .portfolio-holder__left {
         width: 100%;
         height: auto;
     }
 
-    .portfolio-holder__left-holder{
+    .portfolio-holder__left-holder {
         position: relative;
         max-width: 100%;
     }
 
     .portfolio .portfolio-navigation,
-    .portfolio .portfolio-contact{
+    .portfolio .portfolio-contact {
         display: none;
     }
 
-    .portfolio .portfolio-holder .portfolio-holder__right{
+    .portfolio .portfolio-holder .portfolio-holder__right {
         width: 100%;
+    }
+
+    .portfolio .portfolio-holder .portfolio-holder__right .content-holder {
+        margin-bottom: 80px;
+    }
+
+    .portfolio .portfolio-holder .portfolio-holder__right #about {
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    .portfolio .portfolio-holder .portfolio-holder__right #about h2 {
+        flex: 0 0 100%;
+        margin-bottom: 32px;
+    }
+
+    .portfolio .portfolio-holder .portfolio-holder__right #about .about-img {
+        flex: 0 0 30%;
+        margin-bottom: 0;
+    }
+
+    .portfolio .portfolio-holder .portfolio-holder__right #about p {
+        font-size: 14px;
+    }
+
+    .portfolio .portfolio-holder .portfolio-holder__right #about p:first-of-type {
+        flex: 0 0 70%;
+    }
+
+    .content-holder-experience {
+        background: rgba(17, 32, 38, 0.5);
+        backdrop-filter: blur(8px);
+        transition: opacity 0.5s ease 0.3s;
+        padding: 26px;
+    }
+
+    .content-holder-experience .content-holder-experience__right-firm-year h5 {
+        color: #ffc107;
+    }
+
+    .content-holder-experience .content-holder-experience__right-tech span {
+        color: #ffc107;
+        border-color: #ffc107;
+    }
+
+    .portfolio .portfolio-holder .portfolio-holder__right .content-holder p{
+        font-size: 14px;
+    }
+
+    .content-holder-experience .content-holder-experience__right-tech span{
+        font-size: 12px;
     }
 }
 
-@media only screen and (max-width: 575px){
-    .portfolio-holder__left-heading{
+@media only screen and (max-width: 575px) {
+    .portfolio-holder__left-heading {
         font-size: 37px;
+    }
+
+    .portfolio-holder__left-content h2{
+        font-size: 16px;
+    }
+
+    .portfolio-holder__left-content{
+        width: 100%;
+    }
+
+    .portfolio-holder__left-content{
+        flex: 0 0 100%;
+        margin-bottom: 18px;
+    }
+
+    .portfolio .portfolio-holder .portfolio-holder__right .content-holder{
+        margin-bottom: 60px;
+    }
+
+    .portfolio .portfolio-holder .portfolio-holder__right #about .about-img{
+        margin-bottom: 18px;
+    }
+
+    .portfolio .portfolio-holder .portfolio-holder__right #about p:first-of-type{
+        flex: 0 0 100%;
     }
 }
