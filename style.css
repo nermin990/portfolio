@@ -332,7 +332,7 @@ body {
 }
 
 .content-holder-experience .content-holder-experience__right-firm-year p {
-    font-size: 24px;
+    font-size: 26px;
     margin: 0;
 }
 
@@ -411,7 +411,7 @@ body {
     border: 1px solid #fff;
     border-radius: 20px;
     line-height: 1;
-    font-size: 14px;
+    font-size: 13px;
     color: #fff;
     background-color: rgba(125, 235, 183, 0.05);
     transition: 300ms;
