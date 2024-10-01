@@ -100,8 +100,7 @@ body {
 
 .portfolio-holder__left-content h2 {
     font-size: 24px;
-    margin: 0;
-    margin-bottom: 32px;
+    margin: 0 0 32px 0;
 }
 
 .portfolio-holder__left-content p {
@@ -695,5 +694,14 @@ body {
 
     .portfolio .portfolio-holder .portfolio-holder__right #about p:first-of-type {
         flex: 0 0 100%;
+    }
+
+    .slider:hover .item {
+        animation-play-state: running !important;
+        filter: none;
+    }
+
+    .slider .item:hover {
+        filter: none;
     }
 }
