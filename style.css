@@ -296,10 +296,11 @@ body {
 .slider:hover .item {
     animation-play-state: paused !important;
     filter: grayscale(1);
-}
 
-.slider .item:hover {
-    filter: grayscale(0);
+    &:hover{
+        filter: grayscale(0);
+
+    }
 }
 
 .slider[reverse="true"] .item {
